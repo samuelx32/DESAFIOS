@@ -1,14 +1,13 @@
-palavras = ["tenet","amadeus"]
+palavras = ["tenet","amadeus","teste","sonnos"]
 
 for palavra in palavras:
     palindromo = True
     letras = len(palavra)
-    if letras % 2 != 0:
-        for i in range(int(letras/2)):
-            if palavra[i] != palavra[letras - (i + 1)]:
-                palindromo = False
-    else:
-        palindromo = False
+    
+    for i in range(int(letras/2)):
+        if palavra[i] != palavra[letras - (i + 1)]:
+            palindromo = False
+    
                 
     if not palindromo:    
         print (f"{palavra} -> Não é palindromo")
