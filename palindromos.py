@@ -13,3 +13,6 @@ for palavra in palavras:
         print (f"{palavra} -> Não é palindromo")
     else:
         print (f"{palavra} -> É palindromo")
+
+
+        
