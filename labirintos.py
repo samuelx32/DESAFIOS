@@ -7,18 +7,12 @@ def parabens():
     for i in range(15):
         os.system("cls")
         if i % 2 != 0:
-            print("""
-                                      
-                    **  PARABÉNS  **
-                                      
-
+            print("""                
+                    **  PARABÉNS  **                 
             """)
         else:
-            print("""
-                                
+            print("""         
                         PARABÉNS  
-                
-
             """)
         time.sleep(0.2)
 
